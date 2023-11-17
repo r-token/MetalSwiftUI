@@ -11,6 +11,7 @@
 		F42626DA2B07D52F002C13E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42626D92B07D52F002C13E3 /* ContentView.swift */; };
 		F42626DC2B07D530002C13E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42626DB2B07D530002C13E3 /* Assets.xcassets */; };
 		F42626E02B07D530002C13E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42626DF2B07D530002C13E3 /* Preview Assets.xcassets */; };
+		F42626E72B07DCBD002C13E3 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F42626E62B07DCBD002C13E3 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F42626DB2B07D530002C13E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42626DD2B07D530002C13E3 /* MetalSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalSwiftUI.entitlements; sourceTree = "<group>"; };
 		F42626DF2B07D530002C13E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F42626E62B07DCBD002C13E3 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F42626D72B07D52F002C13E3 /* MetalSwiftUIApp.swift */,
 				F42626D92B07D52F002C13E3 /* ContentView.swift */,
+				F42626E62B07DCBD002C13E3 /* Shaders.metal */,
 				F42626DB2B07D530002C13E3 /* Assets.xcassets */,
 				F42626DD2B07D530002C13E3 /* MetalSwiftUI.entitlements */,
 				F42626DE2B07D530002C13E3 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42626E72B07DCBD002C13E3 /* Shaders.metal in Sources */,
 				F42626DA2B07D52F002C13E3 /* ContentView.swift in Sources */,
 				F42626D82B07D52F002C13E3 /* MetalSwiftUIApp.swift in Sources */,
 			);
